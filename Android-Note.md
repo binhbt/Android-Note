@@ -1,5 +1,6 @@
 
-### 
+### FullScreen DialogFragment
+```java
     @Override
     public void onStart() {
         super.onStart();
@@ -14,8 +15,8 @@
         }
 
     }
-FullScreen DialogFragment
-```java
+
+
 
     @Override
     public void onCreate(@Nullable final Bundle savedInstanceState) {
