@@ -30,3 +30,17 @@
     }
 
 ```
+##OR
+```java
+    <style name="FullScreenDialog" parent="android:Theme" >
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+        @Override
+    public int getTheme() {
+        return R.style.FullScreenDialog;
+    }
+```
